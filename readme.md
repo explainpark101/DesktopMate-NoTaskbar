@@ -16,3 +16,5 @@ Invoke-PS2EXE .\DesktopMate_noTaskBar.ps1 DesktopMate-NoTaskbar.exe
 ```powershell
 Invoke-PS2EXE .\DesktopMate_noTaskBar.ps1 "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\DesktopMate-NoTaskbar.exe"
 ```
+### 빌드된 파일 다운로드
+[최신 realese에서 다운로드 받으시면 됩니다.](https://github.com/explainpark101/DesktopMate-NoTaskbar/releases/tag/main)
