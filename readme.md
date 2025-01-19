@@ -16,5 +16,12 @@ Invoke-PS2EXE .\DesktopMate_noTaskBar.ps1 DesktopMate-NoTaskbar.exe
 ```powershell
 Invoke-PS2EXE .\DesktopMate_noTaskBar.ps1 "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\DesktopMate-NoTaskbar.exe"
 ```
+
+### c 코드에서 빌드하기
+```powershell
+gcc -mwindows main.c -o GameMonitor.exe -Wall
+```
+`GameMonitor.exe` 파일을 실행시키세요. Overwatch가 실행중이면 DesktopMate를 껐다가, Overwatch가 꺼지면 다시 DesktopMate를 켭니다.
+
 ### 빌드된 파일 다운로드
 [최신 realese에서 다운로드 받으시면 됩니다.](https://github.com/explainpark101/DesktopMate-NoTaskbar/releases/tag/main)
